@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Themes" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">#121212</item>
+        <item name="colorAccent">@color/yellow</item>
+        <item name="android:background">#121212</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="Back">
+        <item name="android:background">#121212</item>
+    </style>
+
+    <!-- ImageButton style -->
+    <style name="MyimageBtn" parent="Widget.AppCompat.ImageButton">
+        <item name="tint">@color/yellow</item>
+        <item name="background">@color/red</item>
+    </style>
+
+</resources>
