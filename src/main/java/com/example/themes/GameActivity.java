@@ -64,14 +64,14 @@ public class GameActivity extends AppCompatActivity {
     }
 
     private boolean checkWin(String player) {
-        return (buttons[0].getText().toString().equals(player) && buttons[1].getText().toString().equals(player) && buttons[2].getText().toString().equals(player)) || // Row 1
-                (buttons[3].getText().toString().equals(player) && buttons[4].getText().toString().equals(player) && buttons[5].getText().toString().equals(player)) || // Row 2
-                (buttons[6].getText().toString().equals(player) && buttons[7].getText().toString().equals(player) && buttons[8].getText().toString().equals(player)) || // Row 3
-                (buttons[0].getText().toString().equals(player) && buttons[3].getText().toString().equals(player) && buttons[6].getText().toString().equals(player)) || // Column 1
-                (buttons[1].getText().toString().equals(player) && buttons[4].getText().toString().equals(player) && buttons[7].getText().toString().equals(player)) || // Column 2
-                (buttons[2].getText().toString().equals(player) && buttons[5].getText().toString().equals(player) && buttons[8].getText().toString().equals(player)) || // Column 3
-                (buttons[0].getText().toString().equals(player) && buttons[4].getText().toString().equals(player) && buttons[8].getText().toString().equals(player)) || // Diagonal \
-                (buttons[2].getText().toString().equals(player) && buttons[4].getText().toString().equals(player) && buttons[6].getText().toString().equals(player));   // Diagonal /
+        return (buttons[0].getText().toString().equals(player) && buttons[1].getText().toString().equals(player) && buttons[2].getText().toString().equals(player)) || 
+                (buttons[3].getText().toString().equals(player) && buttons[4].getText().toString().equals(player) && buttons[5].getText().toString().equals(player)) || 
+                (buttons[6].getText().toString().equals(player) && buttons[7].getText().toString().equals(player) && buttons[8].getText().toString().equals(player)) || 
+                (buttons[0].getText().toString().equals(player) && buttons[3].getText().toString().equals(player) && buttons[6].getText().toString().equals(player)) || 
+                (buttons[1].getText().toString().equals(player) && buttons[4].getText().toString().equals(player) && buttons[7].getText().toString().equals(player)) || 
+                (buttons[2].getText().toString().equals(player) && buttons[5].getText().toString().equals(player) && buttons[8].getText().toString().equals(player)) || 
+                (buttons[0].getText().toString().equals(player) && buttons[4].getText().toString().equals(player) && buttons[8].getText().toString().equals(player)) ||  
+                (buttons[2].getText().toString().equals(player) && buttons[4].getText().toString().equals(player) && buttons[6].getText().toString().equals(player));    
     }
 
     private void PcPlay() {
